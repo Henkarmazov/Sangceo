@@ -1,16 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=200&section=header&text=sang.ceo&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=registry%20terbuka%20untuk%20subdomain%20dan%20email%20gratis&descAlignY=58&descSize=18" width="100%" alt="sang.ceo registry" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=220&section=header&text=sang.ceo&fontSize=76&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=registry%20terbuka%20untuk%20subdomain%20dan%20email%20gratis&descAlignY=60&descSize=19" width="100%" alt="sang.ceo registry" />
 
-### Satu subdomain, satu berkas, satu pull request.
+<a href="https://sang.ceo">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0EA5E9&center=true&vCenter=true&repeat=true&width=760&height=48&lines=Satu+subdomain%2C+satu+berkas%2C+satu+pull+request.;Klaim+dari+situs%2C+merge+otomatis.;DNS+dan+mailbox+langsung+jadi." alt="sang.ceo" />
+</a>
+
+<br/>
 
 [![Buka situs](https://img.shields.io/badge/sang.ceo-buka_situs-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sang.ceo)
 [![Klaim subdomain](https://img.shields.io/badge/klaim_subdomain-8b5cf6?style=for-the-badge&logo=rocket&logoColor=white)](https://sang.ceo/daftar)
 [![Klaim email](https://img.shields.io/badge/klaim_email-6366f1?style=for-the-badge&logo=maildotru&logoColor=white)](https://sang.ceo/email)
 
+<br/>
+
 ![subdomain](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FNauvalunesa%2FSangceo%2Fcontents%2Fdata%2Fdomains&query=%24.length&label=subdomain&color=0ea5e9&style=flat-square)
 ![mailbox](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FNauvalunesa%2FSangceo%2Fcontents%2Fdata%2Femails&query=%24.length&label=mailbox&color=8b5cf6&style=flat-square)
 ![penjaga PR](https://github.com/Nauvalunesa/Sangceo/actions/workflows/pr-jaga.yml/badge.svg)
+![terakhir diubah](https://img.shields.io/github/last-commit/Nauvalunesa/Sangceo?label=terakhir%20diubah&color=22c55e&style=flat-square)
 
 </div>
 
@@ -46,6 +53,12 @@ terbuka dengan isi yang sudah terisi.
 | 2 | Tekan **Klaim lewat GitHub** | Fork, berkas, dan PR sekaligus |
 | 3 | Tunggu beberapa detik | Komentar pratinjau dan merge otomatis |
 | 4 | Arahkan domain di hosting | Sertifikat SSL terbit sendiri |
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:8b5cf6&height=3&section=footer" width="100%" alt="" />
 
 </div>
 
@@ -125,6 +138,12 @@ yang tidak bisa ditebak.
 
 </div>
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:8b5cf6&height=3&section=footer" width="100%" alt="" />
+
+</div>
+
 ## Struktur
 
 ```text
@@ -173,6 +192,12 @@ persetujuan yang harus ditekan pemilik repo.
 Sesudah merge, pengelola menjalankan sinkronisasi yang membuat record DNS dan akun
 mailbox, lalu mengirim sandinya ke email akun GitHub pembuka pull request.
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:8b5cf6&height=3&section=footer" width="100%" alt="" />
+
+</div>
+
 ## Untuk kontributor
 
 Ingin mengubah aturan, validator, atau alur bot? Baca [CONTRIBUTING.md](./CONTRIBUTING.md)
@@ -189,6 +214,6 @@ Validator dijalankan dari versi `main`, bukan versi yang dibawa PR, justru untuk
 <sub>Repo ini hanya berisi data klaim. Kode situs, kredensial, dan proses provisioning
 tidak ada di sini. Sandi mailbox tidak pernah ditulis ke Git.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:0ea5e9&height=120&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:0ea5e9&height=140&section=footer" width="100%" alt="" />
 
 </div>
