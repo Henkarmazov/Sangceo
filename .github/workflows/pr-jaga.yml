@@ -13,8 +13,16 @@ name: Penjaga PR
 # "action_required", jadi tidak ada lagi tombol approve yang harus ditekan pemilik
 # repo. PR baru ditangani paling lama tiga menit setelah dibuka.
 on:
+  # Setiap menit sebagai jaring pengaman. GitHub tidak menjamin jadwal rapat, dan
+  # run terjadwal bisa tertunda beberapa menit saat repo sibuk. Karena itu jalur
+  # utama bukan jadwal, melainkan workflow_run di bawah.
   schedule:
-    - cron: "*/3 * * * *"
+    - cron: "* * * * *"
+  # Begitu "Kabari penjaga" selesai, penjaga langsung jalan. Pemicu workflow_run
+  # berjalan di repo ini dengan izin penuh, tidak seperti pull_request dari fork.
+  workflow_run:
+    workflows: ["Kabari penjaga"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
