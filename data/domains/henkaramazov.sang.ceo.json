@@ -5,7 +5,6 @@
   "records": {
     "CNAME": "Henkarmazov.github.io"
   },
-  "proxy": true,
   "extra": [
     {
       "type": "TXT",
