@@ -5,5 +5,13 @@
   "records": {
     "CNAME": "Henkarmazov.github.io"
   },
-  "proxy": true
+  "proxy": true,
+  "extra": [
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=henkaramazov.sang.ceo,a8cbcf17783eb87d2737",
+      "at": "apex"
+    }
+  ]
 }
